@@ -22,8 +22,8 @@ const handleSubmit = (event) => {
     console.log(boardSize)
     setBoardSize(boardSize); 
     setBoard([...Array(boardSize)].map((row) => Array(boardSize).fill("")));
-    setPlayerOne({name: event.target.playerOneName.value,  symbol: 'O'});
-    setPlayerTwo({name: event.target.playerTwoName.value,  symbol: 'X'});
+    setPlayerOne({name: event.target.playerOneName.value,  symbol: 'X'});
+    setPlayerTwo({name: event.target.playerTwoName.value,  symbol: 'O'});
 }
 
   return (
