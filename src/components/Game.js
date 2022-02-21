@@ -19,10 +19,10 @@ const [width, setWidth] = useState(null);
 const [height, setHeight]  = useState(null);
 const [playerOne, setPlayerOne] = useState({ 
     name: '', 
-    symbol: 'O'});
+    symbol: 'X'});
 const [playerTwo, setPlayerTwo] = useState({ 
         name: '', 
-        symbol: 'X' });
+        symbol: 'O' });
 const [playerOneIsNext, setPlayerOneIsNext] = useState(true);
 const confettiRef = useRef(null);
 
@@ -123,7 +123,7 @@ return (
              <p className='gameInfo'>
             {hasWinner  && ( <Confetti width={width} height={height}/>)}
             {hasWinner && gameOn && playWinnerAudio()}
-            { hasWinner ? "The winner is " + (playerOneIsNext? playerOne.name: playerTwo.name): "It's " + (playerOneIsNext? displayPlayerTwo(): displayPlayerOne()) + " turn"}
+            { hasWinner ? "The winner is " + (playerOneIsNext? playerTwo.name: playerOne.name): "It's " + (playerOneIsNext? displayPlayerOne(): displayPlayerTwo()) + " turn"}
         </p>)}
 
     </div>
