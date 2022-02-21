@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+.initGame {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color: antiquewhite;
+    line-height: 3em;
+    font-family: 'Zilla Slab', serif;
+}
+
+.Login {
+   margin-top: 10px !important;
+}
+
+.Login input {
+    vertical-align: middle;
+    margin: 60px 10px 5px 0;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    display: block;
+  }
+
+  .Login label {
+    margin: 5px 10px 5px 0;
+}
+
+
+.submitBtn {
+  width: 189px !important;
+  height: 37px !important;
+  margin-bottom: 25px !important;
+  cursor: pointer !important;
+  color: #e7dac7 !important;
+  outline: none !important;
+  background: #241f1c !important;
+  border: 1px solid #e7dac7 !important;
+  position: relative;
+  top: 60px;
+}
+
+.submitBtn:hover {
+  background: #e7dac7 !important;
+  color: #241f1c !important;
+  transition: .3s all ease !important;
+}

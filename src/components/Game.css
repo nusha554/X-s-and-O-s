@@ -1,0 +1,44 @@
+
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: #241f1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.startBtn, .clearBtn {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    color: #e7dac7;
+    outline: none;
+    background: #241f1c;
+    border: 1px solid #e7dac7;
+}
+
+.startBtn:hover, .clearBtn:hover {
+    background: #e7dac7;
+    color: #241f1c;
+    transition: .3s all ease;
+}
+
+.gameInfo {
+    margin-top:  25px;
+    font-size: 40px;
+    color: #e7dac7;
+ 
+}
+
+.header {
+    font-size: 60px;
+    color: #e7dac7;
+    margin-top: 25px;
+    margin-bottom: 44px;
+    top: 40px;
+}
